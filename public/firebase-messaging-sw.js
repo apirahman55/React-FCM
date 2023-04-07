@@ -12,12 +12,12 @@ if('function' === typeof importScripts) {
     // Initialize the Firebase app in the service worker by passing in the
     // messagingSenderId.
     const firebaseConfig = {
-        apiKey: "AIzaSyBT6kSfbc6qBJvKwV86SBjl0M4nmVoIFV4",
-        authDomain: "rgb-treasury1.firebaseapp.com",
-        projectId: "rgb-treasury1",
-        storageBucket: "rgb-treasury1.appspot.com",
-        messagingSenderId: "1078633825069",
-        appId: "1:1078633825069:web:15ade4962fcd40e13409a4",
+        apiKey: "",
+        authDomain: "",
+        projectId: "",
+        storageBucket: "",
+        messagingSenderId: "",
+        appId: "",
     };
 
     firebase.initializeApp(firebaseConfig);
